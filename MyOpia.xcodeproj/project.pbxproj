@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		71164F8B1B9FE2B7002F5C9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71164F8A1B9FE2B7002F5C9C /* main.m */; };
 		71164F8E1B9FE2B7002F5C9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71164F8D1B9FE2B7002F5C9C /* AppDelegate.m */; };
-		71164F911B9FE2B7002F5C9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71164F901B9FE2B7002F5C9C /* ViewController.m */; };
 		71164F941B9FE2B7002F5C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71164F921B9FE2B7002F5C9C /* Main.storyboard */; };
 		71164F961B9FE2B7002F5C9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71164F951B9FE2B7002F5C9C /* Images.xcassets */; };
 		71164F991B9FE2B7002F5C9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71164F971B9FE2B7002F5C9C /* LaunchScreen.xib */; };
 		71164FA51B9FE2B7002F5C9C /* MyOpiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71164FA41B9FE2B7002F5C9C /* MyOpiaTests.m */; };
+		71164FB01B9FE3C6002F5C9C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71164FAF1B9FE3C6002F5C9C /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		71164F8A1B9FE2B7002F5C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71164F8C1B9FE2B7002F5C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71164F8D1B9FE2B7002F5C9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71164F8F1B9FE2B7002F5C9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71164F901B9FE2B7002F5C9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71164F931B9FE2B7002F5C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71164F951B9FE2B7002F5C9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71164F981B9FE2B7002F5C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71164F9E1B9FE2B7002F5C9C /* MyOpiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71164FA31B9FE2B7002F5C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71164FA41B9FE2B7002F5C9C /* MyOpiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpiaTests.m; sourceTree = "<group>"; };
+		71164FAE1B9FE3C6002F5C9C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		71164FAF1B9FE3C6002F5C9C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				71164F8C1B9FE2B7002F5C9C /* AppDelegate.h */,
 				71164F8D1B9FE2B7002F5C9C /* AppDelegate.m */,
-				71164F8F1B9FE2B7002F5C9C /* ViewController.h */,
-				71164F901B9FE2B7002F5C9C /* ViewController.m */,
 				71164F921B9FE2B7002F5C9C /* Main.storyboard */,
+				71164FAE1B9FE3C6002F5C9C /* MainViewController.h */,
+				71164FAF1B9FE3C6002F5C9C /* MainViewController.m */,
 				71164F951B9FE2B7002F5C9C /* Images.xcassets */,
 				71164F971B9FE2B7002F5C9C /* LaunchScreen.xib */,
 				71164F881B9FE2B7002F5C9C /* Supporting Files */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71164F911B9FE2B7002F5C9C /* ViewController.m in Sources */,
 				71164F8E1B9FE2B7002F5C9C /* AppDelegate.m in Sources */,
+				71164FB01B9FE3C6002F5C9C /* MainViewController.m in Sources */,
 				71164F8B1B9FE2B7002F5C9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyOpia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyOpia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
