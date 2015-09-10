@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D8684423-64AE-4401-8BED-748819C92C54</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyOpia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC83B76D6FAD155D4E9EF037FE7B5DB1D4C451FC</key>
+		<string>https://github.com/raytlin/MyOpia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyOpia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC83B76D6FAD155D4E9EF037FE7B5DB1D4C451FC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/raytlin/MyOpia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC83B76D6FAD155D4E9EF037FE7B5DB1D4C451FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC83B76D6FAD155D4E9EF037FE7B5DB1D4C451FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyOpia</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -84,13 +84,17 @@
     CAShapeLayer *maskLayer = [CAShapeLayer layer];
     maskLayer.frame = bounds;
     maskLayer.fillColor = [UIColor blackColor].CGColor;
-    
-    static CGFloat const kRadius = 200;
-    CGRect const circleRect = CGRectMake(CGRectGetMidX(bounds) - kRadius,
-                                         CGRectGetMidY(bounds) - kRadius,
-                                         2 * kRadius, 2 * kRadius);
+
+    // Make left circle
+    CGRect circleRect = CGRectMake(0, 0, bounds.size.width / 2, bounds.size.height);
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:circleRect];
     [path appendPath:[UIBezierPath bezierPathWithRect:bounds]];
+    
+    // Make right circle
+    circleRect = CGRectMake(bounds.size.width / 2, 0, bounds.size.width / 2, bounds.size.height);
+    [path appendPath:[UIBezierPath bezierPathWithOvalInRect:circleRect]];
+    
+    // Add both circles to mask
     maskLayer.path = path.CGPath;
     maskLayer.fillRule = kCAFillRuleEvenOdd;
     
